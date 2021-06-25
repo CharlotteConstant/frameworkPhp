@@ -1,3 +1,5 @@
+
+<!-- page qui s'affiche-->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -57,7 +59,7 @@
 
 
 <hr>
-
+<!-- les templates s'affichent ici-->
   <?php echo $contenuDeLaPage ?>
 
 <div class="footer">

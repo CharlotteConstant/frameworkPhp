@@ -14,10 +14,10 @@ class App
             $task = $_GET['task'];
         }
 // verifier si controler et task sont pas vide et rempli
-       $controllerName = ucfirst($controllerName);
+       $controllerName = ucfirst($controllerName); //noms des controllers commencent par une majuscule
        $controllerName = "\Controllers\\".$controllerName;
-        $controller = new $controllerName();
-        $controller->$task();
+        $controller = new $controllerName(); //instancie le controller
+        $controller->$task(); //execute la tache
         //met une chaine de caractère à la place d'une autre
     }
 }

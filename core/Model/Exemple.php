@@ -5,7 +5,7 @@ require_once "core/autoloading.php";
 
 class Exemple //extends Model si besoin
 {
-    protected $table = "exemples";
+    protected $table = "exemples"; //on met le nom de la table dans la bd
 
     //toutes les fonctions qui sont propres à notre class
 

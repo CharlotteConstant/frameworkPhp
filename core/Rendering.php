@@ -11,7 +11,7 @@ class Rendering {
  */
 
 public static function render(string $template, array $donnees): void{
-    extract($donnees);
+    extract($donnees); //extract va créer des variables à partir du tableu.
 
 // j'active la mémoire tampon
 ob_start();
